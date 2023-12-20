@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Recados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+  <h1>Seja bem vindo</h1>
+  <form onsubmit="logar(event)">
+    <fieldset>
+      <legend>Faça seu login</legend>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required placeholder="Digite seu e-mail" />
+
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha" required placeholder="Digite sua senha" />
+
+      <br>
+
+      <button class="button" type="submit">
+        Login
+      </button>
+      <button class="button" type="reset">
+        Limpar
+      </button>
+
+      <p>Alguma coisa</p>
+      <p>leonardo@mail.com</p>
+      <p>senha1</p>
+    </fieldset>
+  </form>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+
+</html>
